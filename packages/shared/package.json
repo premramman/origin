@@ -1,0 +1,17 @@
+{
+  "name": "@origin/shared",
+  "version": "1.0.0",
+  "main": "dist/index.js", 
+  "module": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

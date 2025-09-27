@@ -1,0 +1,23 @@
+# Dependencies
+/node_modules
+
+# Build and Cache Directories
+/packages/*/dist
+/packages/*/.cache
+/packages/*/node_modules
+
+# Web-app specific
+/packages/web-app/dist
+/packages/web-app/.vite
+
+# Native-app specific (Large and platform-dependent)
+/packages/native-app/android/
+/packages/native-app/ios/
+/packages/native-app/build/
+/packages/native-app/.idea/
+/packages/native-app/.vscode/
+
+# OS/IDE Artifacts
+.DS_Store
+npm-debug.log*
+yarn-error.log*

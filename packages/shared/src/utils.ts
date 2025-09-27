@@ -1,0 +1,1 @@
+export const getMonorepoStatus = () => "Monorepo is successfully configured!";
